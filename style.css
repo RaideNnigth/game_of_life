@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    overflow: auto;
+    background-color:blueviolet;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+canvas{
+    background-color: #181818;
+    border-radius: 12px;
+    border-right: rgba( 128, 128, 128, .3) outset 4px;
+    border-bottom: rgba( 128, 128, 128, .3) outset 4px;
+    margin: auto;
+}
+button{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+}
